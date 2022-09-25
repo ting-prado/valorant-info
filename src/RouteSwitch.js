@@ -1,19 +1,17 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import App from './App';
+import { Routes, Route } from 'react-router-dom';
 import Agents from './components/Agents';
 import Maps from './components/Maps';
+import Home from './components/Home';
 import Weapons from './components/Weapons';
 
 const RouteSwitch = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/agents" element={<Agents />} />
-        <Route path="/maps" element={<Maps />} />
-        <Route path="/weapons" element={<Weapons />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/agents" element={<Agents />} />
+      <Route path="/maps" element={<Maps />} />
+      <Route path="/weapons" element={<Weapons />} />
+    </Routes>
   );
 };
 

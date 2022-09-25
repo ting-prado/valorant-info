@@ -1,9 +1,11 @@
+import Navbar from './components/Navbar';
+import RouteSwitch from './RouteSwitch';
+
 const App = () => {
   return (
     <div className="App">
-      <div className="row">
-        <h1>Hello from App</h1>
-      </div>
+      <Navbar />
+      <RouteSwitch />
     </div>
   );
 };
