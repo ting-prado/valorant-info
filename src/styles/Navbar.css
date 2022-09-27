@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Valorant';
+  src: url('../resources/valorant/Valorant\ Font.ttf');
+}
+
+@font-face {
+  font-family: 'Techno LCD';
+  src: url('../resources/techno-lcd/Techno\ LCD.ttf');
+}
+
+.navbar {
+  box-shadow: 0 4px 3px silver;
+  padding: 0.2rem 0;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin: 0 0.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Valorant', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  margin-right: 5rem;
+}
+
+.nav-item {
+  font-family: 'Techno LCD', sans-serif;
+  font-size: 18px;
+}
+
+.nav-link:hover,
+.active {
+  color: darkred !important;
+}
