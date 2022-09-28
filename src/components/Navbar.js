@@ -10,11 +10,9 @@ const Navbar = () => {
       link.addEventListener('click', (e) => {
         const active = document.querySelector('.active');
         active.classList.remove('active');
-        if (e.target.classList.contains('nav-link')) {
-          e.target.classList.add('active');
-        } else {
-          document.querySelector('.home').classList.add('active');
-        }
+        e.target.classList.contains('nav-link')
+          ? e.target.classList.add('active')
+          : document.querySelector('.home').classList.add('active');
       });
     });
   });
