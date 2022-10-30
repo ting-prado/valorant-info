@@ -9,9 +9,9 @@
 }
 
 .navbar {
-  box-shadow: 0 4px 3px silver;
+  box-shadow: 0 5px 4px silver;
   padding: 0.2rem 0;
-  margin-bottom: 1rem;
+  margin-bottom: 5px;
 }
 
 .logo {
